@@ -30,6 +30,5 @@ def merge(first, second):
             
     final.extend(first[i:])
     final.extend(second[j:])
-    
 
     return final
