@@ -14,7 +14,6 @@ def merge_sort(nums):
 
     return merge(first_res, second_res)
 
-
 def merge(first, second):
     final = []
     i = 0
