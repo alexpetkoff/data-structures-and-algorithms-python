@@ -19,7 +19,7 @@ def merge(first, second):
     i = 0
     j = 0
 
-    while i < len(first) and j < len(second):        
+    while i < len(first) and j < len(second):
         if first[i] <= second[j]:
             final.append(first[i])
             i += 1
